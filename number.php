@@ -1,5 +1,5 @@
 <?php
-for ($i = 1; $i <= 40; $i++) {
+for ($i = 1; $i <= 80; $i++) {
 	echo $i;
 	if ($i % 4 == 0) {
 		echo 'fancy';

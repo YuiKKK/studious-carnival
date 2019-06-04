@@ -1,3 +1,3 @@
 <?php
-echo '今の時間は' . date("Y-m-d H:i") . 'です。';
+echo '今' . date("Y-m-d H:i:s") . 'です。';
 ?>
