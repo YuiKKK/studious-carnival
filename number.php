@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NUMBER</title>
+</head>
+<body>
 <?php
 for ($i = 1; $i <= 80; $i++) {
 	echo $i;
@@ -7,4 +13,5 @@ for ($i = 1; $i <= 80; $i++) {
 	echo '<br>';
 }
 ?>
-
+</body>
+</html>
