@@ -5,10 +5,10 @@
 </head>
 <body>
 <?php
-for ($i = 1; $i <= 80; $i++) {
+for ($i = 1; $i <= 100; $i++) {
 	echo $i;
 	if ($i % 4 == 0) {
-		echo 'fancy';
+		echo 'twice';
 	}
 	echo '<br>';
 }
