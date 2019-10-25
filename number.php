@@ -7,8 +7,8 @@
 <?php
 for ($i = 1; $i <= 100; $i++) {
 	echo $i;
-	if ($i % 4 == 0) {
-		echo 'twice';
+	if ($i % 3 == 0 || $i % 5 == 0) {
+		echo 'feel special';
 	}
 	echo '<br>';
 }
